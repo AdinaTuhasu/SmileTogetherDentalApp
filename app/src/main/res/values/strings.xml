@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SmileTogether_DentalApp</string>
+    <string name="lastname">Nume</string>
+    <string name="firstname">Prenume</string>
+    <string name="email">Email</string>
+    <string name="age">Varsta</string>
+    <string name="username">Nume utilizator</string>
+    <string name="password">Parola</string>
+    <string name="register_button">Creeaza-ti cont</string>
+    <string name="login_button">Intra in cont</string>
+    <string name="create_an_account">Nu ai cont?</string>
+    <string name="selectrole_button">Intra in cont</string>
+    <string name="radioGroup" />
+    <string name="doctor_radioButton">Doctor</string>
+    <string name="user_radioButton">Pacient</string>
+</resources>

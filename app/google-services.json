@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "70909261942",
+    "project_id": "smiletogetherdentalapp",
+    "storage_bucket": "smiletogetherdentalapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70909261942:android:c66fa33d7c7c44fd340757",
+        "android_client_info": {
+          "package_name": "com.example.smiletogether_dentalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70909261942-1d5htqmdhgp8cvar0hrgj2fusgjov7cl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smiletogether_dentalapp",
+            "certificate_hash": "db16ac20164aa6fc945b01d2f683804a4497c441"
+          }
+        },
+        {
+          "client_id": "70909261942-co6htq5cu1ng3oumgragb6r617v4c4el.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJI6KXgTSWQAAxVuzV3_-Kb0erUarP7KQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "70909261942-co6htq5cu1ng3oumgragb6r617v4c4el.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
