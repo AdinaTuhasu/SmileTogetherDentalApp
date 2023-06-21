@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_blue"
+    tools:context=".Admin.AdminAddServicesActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/primary_color"
+        app:titleMarginStart="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/services_and_prices"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilSpecialityName"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:paddingBottom="5dp"
+        android:theme="@style/TextInputLayoutStyle"
+        app:boxCornerRadiusBottomEnd="0dp"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="0dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tietAddSpecialityName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Denumire specialitate"
+            android:inputType="textCapSentences" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilInvestigationName"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:paddingBottom="5dp"
+        android:theme="@style/TextInputLayoutStyle"
+        app:boxCornerRadiusBottomEnd="0dp"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="0dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tietAddInvestigationName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Denumire investigatie"
+            android:inputType="textCapSentences" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilPrice"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:paddingBottom="5dp"
+        android:theme="@style/TextInputLayoutStyle"
+        app:boxCornerRadiusBottomEnd="0dp"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="0dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tietPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pret"
+            android:inputType="numberDecimal" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonAddInvestigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="90dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/button_background"
+        android:text="adauga investigatie"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonAddSpeciality"
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="90dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/button_background"
+        android:text="adauga specialitate"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonModifyPrice"
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="90dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/button_background"
+        android:text="modifica pretul"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+</LinearLayout>

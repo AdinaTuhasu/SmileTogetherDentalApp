@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">SmileTogether_DentalApp</string>
+    <string name="app_name"></string>
     <string name="lastname">Nume</string>
     <string name="firstname">Prenume</string>
     <string name="email">Email</string>
-    <string name="age">Varsta</string>
+    <string name="nrphone">Numar de telefon</string>
     <string name="username">Nume utilizator</string>
     <string name="password">Parola</string>
     <string name="register_button">Creeaza-ti cont</string>
@@ -13,4 +13,154 @@
     <string name="radioGroup" />
     <string name="doctor_radioButton">Doctor</string>
     <string name="user_radioButton">Pacient</string>
+    <string name="nurse_radioButton">Asistenta</string>
+    <string name="backToLogin"></string>
+    <string name="admin_button"></string>
+    <string name="logo_app"></string>
+    <string name="back_to_login"></string>
+    <string name="view_role"></string>
+    <string name="doctor_logo"></string>
+    <string name="nurse_logo"></string>
+    <string name="nav_doctors"></string>
+    <string name="logout"></string>
+    <string name="nav_personal_data"></string>
+    <string name="nav_infoservices"></string>
+    <string name="nav_view"></string>
+    <string name="drawer_layout"></string>
+    <string name="fragment_container"></string>
+    <string name="programare_noua">Programare nouă</string>
+    <string name="programare_anulata">Programare anulată</string>
+    <string name="toolbar"></string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_user_home_page">UserHomePage</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="profil">Profil</string>
+    <string name="review">Review</string>
+    <string name="toolBar"></string>
+    <string name="name_user"></string>
+    <string name="email_login">Email</string>
+    <string name="password_t"></string>
+
+    <string name="doctor"></string>
+    <string name="doctor_email"></string>
+    <string name="doctor_password"></string>
+    <string name="login_doctor_button"></string>
+    <string name="back_to_patient_login"></string>
+    <string name="show_email"></string>
+    <string name="show_lastname"></string>
+    <string name="show_firstname"></string>
+    <string name="navigation"></string>
+    <string name="specialization">Specializare</string>
+    <string name="availableTime"></string>
+
+    <string-array name="days_of_the_week">
+        <item>luni</item>
+        <item>marți</item>
+        <item>miercuri</item>
+        <item>joi</item>
+        <item>vineri</item>
+    </string-array>
+
+    <string-array name="professional_degree">
+        <item>Nespecificat</item>
+        <item>Medic rezident</item>
+        <item>Medic specialist</item>
+        <item>Medic primar</item>
+    </string-array>
+
+    <string-array name="specialities">
+        <item>Chirurgie dento-alveolară</item>
+        <item>Endodonție</item>
+        <item>Parodontologie</item>
+        <item>Pedodonție</item>
+        <item>Protetică dentară</item>
+        <item>Chirurgie stomatologică și maxilo-facială</item>
+        <item>Stomatologie generală</item>
+    </string-array>
+
+
+    <string name="pattern_email">^([A-Za-z0-9._]+)(@gmail\\.com)$</string>
+    <string name="pattern_numar_telefon">^07[2-8][0-9]{7}$</string>
+
+    <string name="end_time">Ora de sfârșit</string>
+    <string name="start_time">Ora de început</string>
+    <string name="err_empty_nume">Introduceti numele!</string>
+    <string name="err_empty_prenume">Introduceti prenumele!</string>
+    <string name="err_empty_nrTelefon">Introduceti numarul de telefon!</string>
+    <string name="err_empty_dataNasterii">Introduceti data nasterii!</string>
+    <string name="err_empty_speciality">Introduceti specialitatea!</string>
+    <string name="err_empty_program_lucru">Introduceti programul de lucru!</string>
+    <string name="err_empty_email">Introduceti adresa de email!</string>
+    <string name="err_not_valid_email">Introduceți o adresa de  email valida!</string>
+    <string name="err_empty_parola">Introduceți parola!</string>
+    <string name="err_not_valid_parola">Parola trebuie să conțină cel puțin 6 caractere!</string>
+    <string name="err_empty_confirmare_parola">Reintroduceți parola!</string>
+    <string name="err_not_valid_confirmare_parola">Cele 2 parole nu corespund!</string>
+    <string name="err_not_valid_telefon">Numarul de telefon introdus nu este valid!</string>
+    <string name="err_not_valid_email_doctor">Introduceți emailul oficial (de forma adresa@dental.ro)!</string>
+    <string name="selectati_data">Selectați data</string>
+    <string name="title_home">Home</string>
+    <string name="pacienti">Pacienți</string>
+    <string name="programari">Programări</string>
+    <string name="feedback_pacienti">Feedback pacienți</string>
+    <string name="chat">Chat</string>
+    <string name="general">General</string>
+    <string name="adaugare_program_de_lucru">Program de lucru</string>
+    <string name="Contact">Contact</string>
+    <string name="contact_medic">Date de contact</string>
+    <string name="open_toggle">Open</string>
+    <string name="close_toggle">Close</string>
+    <string name="email_mandatory">Email<font color="#FF0000">*</font> </string>
+    <string name="parola">Parola <font color="#FF0000">*</font> </string>
+    <string name="forgot_password">Am uitat parola</string>
+    <string name="remember_me">Ramai autentificat</string>
+    <string name="login">Intră în cont</string>
+    <string name="create_account">Nu ai cont? Înregistrează-te</string>
+    <string name="err_credentiale">Credențiale invalide!</string>
+    <string name="medici">Medici</string>
+    <string name="icon_medic">Icon medic</string>
+    <string name="greeting_message">Cont medic</string>
+    <string name="toate_specialitatile">Toate specialitățile</string>
+    <string-array name="sex">
+        <item>feminin</item>
+        <item> </item>
+        <item>masculin</item>
+        <item> </item>
+    </string-array>
+
+    <string name="canceled_status">anulata</string>
+    <string name="unhonored_status">neonorata</string>
+    <string name="honored_status">onorata</string>
+    <string name="new_status">noua</string>
+    <string name="empty_status">completeaza status</string>
+
+
+    <string name="services_and_prices">Investigații si prețuri</string>
+    <string name="search_investigation">Cauta serviciu</string>
+    <string name="icon_speciality">Cauta serviciu</string>
+    <string name="select_a_speciality">Selectați o specialitate!</string>
+    <string name="info_investigations">Pentru a putea vizualiza informații despre investigații vă rugăm să selectați o specialitate</string>
+    <string name="no_investigation">Nu s-a găsit nicio investigație!</string>
+    <string name="status_new">nouă</string>
+    <string name="no_hour">Nu s-au găsit ore disponibile!</string>
+    <string name="select_appointment_purpose">Scopul programării</string>
+    <string name="err_empty_appointment_purpose">Selectați scopul programării!</string>
+
+    <string-array name="appointment_purpose">
+        <item>Consultație</item>
+        <item> </item>
+        <item>Investigație chirurgicală</item>
+        <item> </item>
+        <item>Control</item>
+        <item> </item>
+
+    </string-array>
 </resources>

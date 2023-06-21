@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue"
+    >
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/gray" />
+
+    <TextView
+        android:id="@+id/tvGrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:layout_marginStart="5dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="Nota:"
+        android:textColor="@color/primary_color"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        />
+
+    <RadioGroup
+        android:id="@+id/rgGrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvGrade"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/rb_grade_selector"
+            android:button="@android:color/transparent"
+            android:text="1"
+            android:textAlignment="center"
+            android:textColor="@drawable/rb_text_grade_selector" />
+
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/rb_grade_selector"
+            android:button="@android:color/transparent"
+            android:text="2"
+            android:textAlignment="center"
+            android:textColor="@drawable/rb_text_grade_selector" />
+
+        <RadioButton
+            android:id="@+id/rb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/rb_grade_selector"
+            android:button="@android:color/transparent"
+            android:text="3"
+            android:textAlignment="center"
+            android:textColor="@drawable/rb_text_grade_selector" />
+
+        <RadioButton
+            android:id="@+id/rb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/rb_grade_selector"
+            android:button="@android:color/transparent"
+            android:text="4"
+            android:textAlignment="center"
+            android:textColor="@drawable/rb_text_grade_selector" />
+
+        <RadioButton
+            android:id="@+id/rb5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/rb_grade_selector"
+            android:button="@android:color/transparent"
+            android:text="5"
+            android:textAlignment="center"
+            android:textColor="@drawable/rb_text_grade_selector" />
+
+        <RadioButton
+            android:id="@+id/rb6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/rb_grade_selector"
+            android:button="@android:color/transparent"
+            android:text="6"
+            android:textAlignment="center"
+            android:textColor="@drawable/rb_text_grade_selector" />
+
+        <RadioButton
+            android:id="@+id/rb7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/rb_grade_selector"
+            android:button="@android:color/transparent"
+            android:text="7"
+            android:textAlignment="center"
+            android:textColor="@drawable/rb_text_grade_selector" />
+
+        <RadioButton
+            android:id="@+id/rb8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/rb_grade_selector"
+            android:button="@android:color/transparent"
+            android:text="8"
+            android:textAlignment="center"
+            android:textColor="@drawable/rb_text_grade_selector" />
+
+        <RadioButton
+            android:id="@+id/rb9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/rb_grade_selector"
+            android:button="@android:color/transparent"
+            android:text="9"
+            android:textAlignment="center"
+            android:textColor="@drawable/rb_text_grade_selector" />
+
+        <RadioButton
+            android:id="@+id/rb10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rb_grade_selector"
+            android:button="@android:color/transparent"
+            android:text="10"
+            android:textAlignment="center"
+            android:textColor="@drawable/rb_text_grade_selector" />
+    </RadioGroup>
+
+
+    <LinearLayout
+        android:id="@+id/llButtons_Feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rgGrade"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSend_Feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:text="Trimite"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnCancel_Feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_secondary_buttons"
+            android:text="Renunță"
+            android:textAllCaps="false"
+            android:textColor="@color/dark_gray"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</RelativeLayout>

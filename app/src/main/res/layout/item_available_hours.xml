@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cwHourAppointment"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="5dp"
+        app:cardBackgroundColor="@color/primary_color"
+        app:cardCornerRadius="30dp">
+
+        <TextView
+            android:id="@+id/tvHourAppointment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="11:30"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

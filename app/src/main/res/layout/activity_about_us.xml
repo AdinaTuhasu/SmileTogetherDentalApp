@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue"
+    tools:context=".AboutUsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/primary_color"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Despre noi"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            />
+    </androidx.appcompat.widget.Toolbar>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/toolbar"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:paddingStart="10dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="5dp"
+        android:text="Smile Together"
+        android:textColor="@color/primary_color"
+        android:textStyle="bold"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:paddingStart="10dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="5dp"
+        android:text="Aplicația stă la dispoziția tuturor pacienților și face tot posibilul ca fiecare dintre aceștia să primească ajutorul de care au nevoie, de la o simplă întrebare până la necesitățile medicale. Aplicația căută cele mai potrivite soluții pentru ca toți cei care îi trec pragul să beneficieze de cele mai calitative servicii medicale."
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv2"
+        android:paddingStart="10dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="5dp"
+        android:text="Despre aplicație"
+        android:textColor="@color/primary_color"
+        android:textStyle="bold"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv3"
+        android:paddingStart="10dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="5dp"
+        android:text="Fie că ești pacient sau medic, în cadrul acestei clinici punem la dispoziție posibilitatea de a gestiona mult mai eficient informațiile esențiale de care ai nevoie. Prin intermediul aplicației noastre ai acces la funcționalități ce ușurează interacțiunea dintre medic și pacient în cadrul clinicii, astfel formând o comunitate."
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:textStyle="italic" />
+
+
+</RelativeLayout>

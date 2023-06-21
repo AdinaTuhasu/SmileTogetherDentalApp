@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlBottomSheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:background="@drawable/background_bottom_sheet">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ciwProfilePhoto_patientClick"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/profile_photo" />
+
+    <TextView
+        android:id="@+id/tvName_patient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ciwProfilePhoto_patientClick"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="nume pacient"
+        android:textColor="@color/primary_color"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tvName_patient">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/llSex_patient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/ivSex_patient"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                     />
+
+                <TextView
+                    android:id="@+id/tvSexText_patient"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_toEndOf="@+id/ivSex_patient"
+                    android:text="Sex"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tvSex_patient"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvSexText_patient"
+                    android:layout_marginStart="15dp"
+                    android:layout_toEndOf="@+id/ivSex_patient"
+                    android:text="sex"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/llPhoneNr_patient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/llSex_patient"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/ivPhoneNr_patient"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/telephone" />
+
+                <TextView
+                    android:id="@+id/tvPhoneNrText_patient"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_toEndOf="@+id/ivPhoneNr_patient"
+                    android:text="Numar de telefon"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tvPhoneNr_patient"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvPhoneNrText_patient"
+                    android:layout_marginStart="15dp"
+                    android:layout_toEndOf="@+id/ivPhoneNr_patient"
+                    android:text="nr tel"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/llAddress_patient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/llPhoneNr_patient"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/ivAddress_patient"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/home" />
+
+                <TextView
+                    android:id="@+id/tvAddressText_patient"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_toEndOf="@+id/ivAddress_patient"
+                    android:text="Adresa"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tvAddress_patient"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvAddressText_patient"
+                    android:layout_marginStart="15dp"
+                    android:layout_toEndOf="@+id/ivAddress_patient"
+                    android:text="adresa"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/llDateOfBirth_patient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/llAddress_patient"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/ivDateOfBirth_patient"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/birthday" />
+
+                <TextView
+                    android:id="@+id/tvDateOfBirthText_patient"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_toEndOf="@+id/ivDateOfBirth_patient"
+                    android:text="Data nasterii"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tvDateOfBirth_patient"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvDateOfBirthText_patient"
+                    android:layout_marginStart="15dp"
+                    android:layout_toEndOf="@+id/ivDateOfBirth_patient"
+                    android:text="data nasterii"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/llEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/llDateOfBirth_patient"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/ivEmail_patient"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/email" />
+
+                <TextView
+                    android:id="@+id/tvEmailText_patient"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_toEndOf="@+id/ivEmail_patient"
+                    android:text="Email"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tvEmail_patient"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvEmailText_patient"
+                    android:layout_marginStart="15dp"
+                    android:layout_toEndOf="@+id/ivEmail_patient"
+                    android:text="email"
+                    android:textColor="@color/primary_color"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
